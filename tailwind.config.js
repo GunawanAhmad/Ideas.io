@@ -1,4 +1,4 @@
-const purge = process.env.NODE_ENV === "production" ? true : false;
+const purge = true;
 const colors = require("tailwindcss/colors");
 
 module.exports = {
